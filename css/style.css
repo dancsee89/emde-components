@@ -1,0 +1,27 @@
+@import "./variables.css";
+@import "./elements/elements.css";
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+*:focus {
+    outline: auto 1px var(--color-blue-primary);
+    outline-offset: var(--outline-offset);
+}
+
+body, html {
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,23 @@
+:root {
+    --font-size-default: 1rem;
+    --font-size-small: calc(var(--font-size-default) * 0.75);
+    --font-size-h1: calc(var(--font-size-default) * 2);
+    --font-size-h2: calc(var(--font-size-default) * 1.75);
+    --font-size-h3: calc(var(--font-size-default) * 1.5);
+    --font-size-h4: calc(var(--font-size-default) * 1.25);
+    --font-weight-bold: 700;
+    --spacing-small: calc(var(--font-size-default) / 2);
+    --spacing-default: var(--font-size-default);
+    --spacing-medium: calc(var(--font-size-default) * 1.5);
+    --spacing-large: calc(var(--font-size-default) * 2);
+    --border-width-small: 1px;
+    --color-background: #fdfdfd;
+    --color-background-alpha: #333333cc;
+    --color-text-primary: #333;
+    --color-text-invert: #fdfdfd;
+    --color-blue-primary: #4396fb;
+    --color-blue-secondary: #152c70;
+    --color-white: #fff;
+    --box-shadow-default: 0 0 4px 1px var(--color-background-alpha);
+    --outline-offset: calc(var(--spacing-small) / 2);
+}

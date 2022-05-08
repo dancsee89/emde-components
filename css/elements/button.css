@@ -1,0 +1,21 @@
+button {
+    border: var(--border-width-small) solid var(--color-text-primary);
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--color-text-primary);
+    font-size: var(--font-size-default);
+    padding: var(--spacing-small) var(--spacing-default);
+    transition: background-color .4s ease, color .4s ease;
+}
+
+button:hover {
+    background-color: var(--color-text-primary);
+    color: var(--color-text-invert);
+    transition: background-color .4s ease, color .4s ease;
+}
+
+button:active {
+    background-color: var(--color-background-alpha);
+    color: var(--color-text-invert);
+    transition: background-color .4s ease, color .4s ease;
+}

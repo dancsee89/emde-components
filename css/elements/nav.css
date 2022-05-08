@@ -1,0 +1,17 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover {
+    background-color: var(--color-background);
+}
+
+nav ul li a, nav ul li a:visited, nav ul li a:not(:visited) {
+    color: var(--color-text-primary);
+    display: block;
+    height: 100%;
+    padding: var(--spacing-default);
+    width: 100%;
+}

@@ -1,0 +1,7 @@
+footer {
+    background-color: var(--color-blue-secondary);
+    color: var(--color-white);
+    font-size: var(--font-size-small);
+    margin-top: auto;
+    padding: var(--spacing-default);
+}

@@ -1,0 +1,16 @@
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+main aside {
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow-default);
+    padding: var(--spacing-default);
+    min-width: 15vw; /* TODO */
+}
+
+main article {
+    flex-grow: 1;
+    padding: var(--spacing-medium);
+}

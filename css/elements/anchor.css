@@ -1,0 +1,12 @@
+a:not(:visited) {
+    color: var(--color-blue-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--color-blue-secondary);
+}
