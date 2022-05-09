@@ -7,7 +7,7 @@ class EmdeNavComponent extends HTMLElement {
     }
 
     render() {
-        const menu = menuItems.map(item => `<li><a href="${item.url}">${item.name}</a></li>`).join('');
+        const menu = menuItems.map(item => `<li><a id="nav-${item.name.toLowerCase()}" data-active="${window.location.hash === item.url}" href="${item.url}">${item.name}</a></li>`).join('');
         this.innerHTML = `
             <nav>
                 <ul>

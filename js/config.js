@@ -1,11 +1,15 @@
 const menuItems = [
     {
-        name: 'Headings',
-        url: '#headings',
+        name: 'Anchors',
+        url: '#anchors',
     },
     {
         name: 'Colors',
         url: '#colors',
+    },
+    {
+        name: 'Headings',
+        url: '#headings',
     },
     {
         name: 'Others',

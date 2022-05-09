@@ -1,3 +1,4 @@
+import "./anchors.js";
 import "./colors.js";
 import "./headings.js";
 import "./home.js";
