@@ -4,7 +4,7 @@ class HomePage extends HTMLElement {
         this.render();
     }
 
-    render() {
+    render = () => {
         this.innerHTML = `
             <h1>Hello Components!</h1>
         `;

@@ -14,3 +14,30 @@ main article {
     flex-grow: 1;
     padding: var(--spacing-medium);
 }
+
+/* TODO: where to put? */
+[data-page="colors"] {
+    background-color: lightgray;
+    border-radius: 40px;
+    display: grid;
+    grid-template: auto / auto auto auto;
+    grid-gap: var(--spacing-medium);
+    padding: var(--spacing-default);
+}
+
+[data-page="colors"] figure {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+[data-page="colors"] figure svg {
+    margin-bottom: var(--spacing-small);
+}
+
+[data-page="colors"] figcaption {
+    font-style: italic;
+}

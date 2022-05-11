@@ -4,6 +4,10 @@ const menuItems = [
         url: '#anchors',
     },
     {
+        name: 'Buttons',
+        url: '#buttons',
+    },
+    {
         name: 'Colors',
         url: '#colors',
     },
